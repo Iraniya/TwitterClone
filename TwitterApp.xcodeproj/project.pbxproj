@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1C65FAD62027AE6A00EE2353 /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65FAD52027AE6A00EE2353 /* HomeDatasourceController.swift */; };
-		1C65FADB2027B42100EE2353 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65FADA2027B42100EE2353 /* Cells.swift */; };
+		1C65FADB2027B42100EE2353 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65FADA2027B42100EE2353 /* UserCell.swift */; };
 		1C65FADD2027B48300EE2353 /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65FADC2027B48300EE2353 /* HomeDatasource.swift */; };
+		1CD0D0AE203DF2C700D105C6 /* UserHeaderFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0D0AD203DF2C700D105C6 /* UserHeaderFooter.swift */; };
+		1CD0D0B0203DF41900D105C6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0D0AF203DF41900D105C6 /* User.swift */; };
+		1CD0D0B2203E02BB00D105C6 /* HomeDatasourceController+NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0D0B1203E02BB00D105C6 /* HomeDatasourceController+NavBar.swift */; };
 		1CFCF17D20279ADA00608994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFCF17C20279ADA00608994 /* AppDelegate.swift */; };
 		1CFCF18420279ADA00608994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCF18320279ADA00608994 /* Assets.xcassets */; };
 		1CFCF18720279ADA00608994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFCF18520279ADA00608994 /* LaunchScreen.storyboard */; };
@@ -19,8 +22,11 @@
 
 /* Begin PBXFileReference section */
 		1C65FAD52027AE6A00EE2353 /* HomeDatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
-		1C65FADA2027B42100EE2353 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		1C65FADA2027B42100EE2353 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		1C65FADC2027B48300EE2353 /* HomeDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatasource.swift; sourceTree = "<group>"; };
+		1CD0D0AD203DF2C700D105C6 /* UserHeaderFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHeaderFooter.swift; sourceTree = "<group>"; };
+		1CD0D0AF203DF41900D105C6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1CD0D0B1203E02BB00D105C6 /* HomeDatasourceController+NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeDatasourceController+NavBar.swift"; sourceTree = "<group>"; };
 		1CFCF17920279ADA00608994 /* TwitterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFCF17C20279ADA00608994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CFCF18320279ADA00608994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				1C65FAD52027AE6A00EE2353 /* HomeDatasourceController.swift */,
+				1CD0D0B1203E02BB00D105C6 /* HomeDatasourceController+NavBar.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -56,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				1C65FADC2027B48300EE2353 /* HomeDatasource.swift */,
+				1CD0D0AF203DF41900D105C6 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -63,7 +71,8 @@
 		1C65FAD92027B41000EE2353 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1C65FADA2027B42100EE2353 /* Cells.swift */,
+				1C65FADA2027B42100EE2353 /* UserCell.swift */,
+				1CD0D0AD203DF2C700D105C6 /* UserHeaderFooter.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -248,9 +257,12 @@
 			files = (
 				1C65FADD2027B48300EE2353 /* HomeDatasource.swift in Sources */,
 				1CFCF17D20279ADA00608994 /* AppDelegate.swift in Sources */,
-				1C65FADB2027B42100EE2353 /* Cells.swift in Sources */,
+				1C65FADB2027B42100EE2353 /* UserCell.swift in Sources */,
 				1C65FAD62027AE6A00EE2353 /* HomeDatasourceController.swift in Sources */,
+				1CD0D0AE203DF2C700D105C6 /* UserHeaderFooter.swift in Sources */,
+				1CD0D0B2203E02BB00D105C6 /* HomeDatasourceController+NavBar.swift in Sources */,
 				1CFCF18F20279C2B00608994 /* HomeController.swift in Sources */,
+				1CD0D0B0203DF41900D105C6 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +395,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66Q99FC7X2;
 				INFOPLIST_FILE = TwitterApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iraniya.TwitterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -399,6 +412,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66Q99FC7X2;
 				INFOPLIST_FILE = TwitterApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iraniya.TwitterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

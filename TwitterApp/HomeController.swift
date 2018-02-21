@@ -40,7 +40,6 @@ class WordCell: UICollectionViewCell {
     }
 }
 
-
 class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     let cellId = "cellId"
@@ -74,8 +73,7 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
             let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: headerId, for: indexPath)
             header.backgroundColor = .blue
             return header
-        }
-        else {
+        }else {
             let footer = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: footerId, for: indexPath)
             footer.backgroundColor = .green
             return footer
